@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  GlagoliticExplorer
+
+  Created by Milan Trbojevic on 25.06.2023..
+  
+*/
+
+"main-menu" = "Main Menu";
+"introduction" = "Introduction";
+"about-us" = "About Us";
+"about-us-text" = "Short description about app";
+"introduction-text" = "Let's talk about us.";
+"tours" = "Tours";
+"tours-text" = "Tours that connect most visited sightseeings.";
+"share" = "Share";
+"share-text" = "Feel free to share your opinion.";
+"rate" = "Rate";
+"rate-text" = "Please rate our app depending on your experience.";
+"email" = "Send Email";
+"email-text" = "Send email to our technical support.";
