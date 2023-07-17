@@ -7,3 +7,15 @@
 */
 
 "main-menu" = "Glavni izbornik";
+"introduction" = "Uvod";
+"introduction-text" = "Tekst za uvod.";
+"about-us" = "O nama";
+"about-us-text" = "Kratki opis o nama.";
+"tours" = "Obilasci";
+"tours-text" = "Tekst za obilaske.";
+"share" = "Podijeli";
+"share-text" = "Tekst za dijeljenje aplikacije.";
+"rate" = "Ocijeni";
+"rate-text" = "Tekst za ocijenjivanje aplikacije.";
+"email" = "Pošalji email";
+"email-text" = "Tekst za slanje emaila prema korisničkoj podršci.";

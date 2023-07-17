@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-struct DefaultView: View {
+struct BasicView: View {
     var title: LocalizedStringKey
     var text: LocalizedStringKey
     
-    var body: some View{
+    var body: some View {
         Text(text)
             .navigationTitle(title)
     }
@@ -19,6 +19,6 @@ struct DefaultView: View {
 
 struct DefaultView_Previews: PreviewProvider {
     static var previews: some View {
-        DefaultView(title: "title", text: "text")
+        BasicView(title: "title", text: "text")
     }
 }

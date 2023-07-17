@@ -10,22 +10,22 @@ import SwiftUI
 struct MenuItemsView: View {
     var body: some View {
         List {
-            NavigationLink(destination: DefaultView(title: "introduction", text: "introduction-text")) {
+            NavigationLink(destination: BasicView(title: "introduction", text: "introduction-text")) {
                 Label("introduction", systemImage: "info")
             }
-            NavigationLink(destination: DefaultView(title: "tours", text: "tours-text")) {
+            NavigationLink(destination: BasicView(title: "tours", text: "tours-text")) {
                 Label("tours", systemImage: "map")
             }
-            NavigationLink(destination: DefaultView(title: "about-us", text: "about-us-text")) {
+            NavigationLink(destination: BasicView(title: "about-us", text: "about-us-text")) {
                 Label("about-us", systemImage: "info.bubble")
             }
-            NavigationLink(destination: DefaultView(title: "share", text: "share-text")) {
+            NavigationLink(destination: BasicView(title: "share", text: "share-text")) {
                 Label("share", systemImage: "square.and.arrow.up")
             }
-            NavigationLink(destination: DefaultView(title: "rate", text: "rate-text")) {
+            NavigationLink(destination: BasicView(title: "rate", text: "rate-text")) {
                 Label("rate", systemImage: "star")
             }
-            NavigationLink(destination: DefaultView(title: "email", text: "email-text")) {
+            NavigationLink(destination: BasicView(title: "email", text: "email-text")) {
                 Label("email", systemImage: "envelope")
             }
         }

@@ -12,7 +12,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             MenuItemsView()
-            .navigationTitle("main-menu")
+                .navigationTitle("main-menu")
         }
     }
 }
